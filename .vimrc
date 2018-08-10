@@ -30,7 +30,7 @@ highlight Normal ctermbg=black
 "" Special line chars
 set list
 ""set listchars=tab:→\ ,eol:\↵
-set listchars=tab:>\
+set listchars=tab:>\ 
 
 "" autogenerate c-tags for the given directory
 ""map <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
